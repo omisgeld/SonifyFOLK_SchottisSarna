@@ -1,0 +1,29 @@
+
+<Mixer id="Blippblopp1" gain="-6dB">
+		<var name="crest" mapin="0,1"></var>
+		<var name="trough" mapin="0,1"></var>
+		<var name="pitch" default="40" mapin="33, 100" steps="0,2,3,5,7,9,10,12" convert="MIDI->frequency"></var>
+		<var name="panning" default="0" mapin="-1,1"></var>
+		<var name="crestattack" default="0.1" mapin="0.01,1"></var>
+		<var name="crestrelease" default="50" mapin="10,200"></var>
+		<var name="troughattack" default="0.2" mapin="0.1,1"></var>
+		<var name="troughrelease" default="75" mapin="10,200"></var>
+
+	<OscillatorNode type="sawtooth" frequency="$pitch" transitionTime="60" output=".filter"></OscillatorNode>
+	<Chain>
+		<BiquadFilterNode class="filter">
+			<frequency>
+				<envelope times="$crestattack*$crestrelease, $crestattack*($crestrelease-($crestattack*$crestrelease))+$crestattack*$crestrelease, $crestrelease, $crestrelease*1.05" values="100, 20, 20, 0" start="crest.crest" max="5000"></envelope>
+			</frequency>
+		</BiquadFilterNode>
+		<StereoPannerNode pan="$panning"></StereoPannerNode>
+	</Chain>
+	<Chain>
+		<BiquadFilterNode class="filter">
+			<frequency>
+				<envelope times="$troughattack*$troughrelease, $troughattack*($troughrelease-($troughattack*$troughrelease))+$troughattack*$troughrelease, $troughrelease, $troughrelease*1.05" values="100, 20, 20, 0" start="trough.trough" max="5000"></envelope>
+			</frequency>
+		</BiquadFilterNode>
+		<StereoPannerNode pan="$panning"></StereoPannerNode>
+	</Chain>
+</Mixer>

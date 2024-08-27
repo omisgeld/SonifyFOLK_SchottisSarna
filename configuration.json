@@ -1,0 +1,366 @@
+{
+    "version": 1,
+    "duration": 60,
+    "variableMappings": [
+        {
+            "name": "Olof:Rfoot_Yvel",
+            "id": 16,
+            "rowID": "22",
+            "gain": 0.17639999999999997,
+            "pan": -0.2,
+            "state": true,
+            "color": "#3FB4A6",
+            "audioObjectID": 82,
+            "mappings": [
+                {
+                    "parameterID": 85,
+                    "inputLow": -136,
+                    "inputHigh": -18,
+                    "outputLow": 0,
+                    "outputHigh": 1,
+                    "relInputLow": 0.0002594059234459756,
+                    "relInputHigh": 0.5289853116200645,
+                    "invert": false,
+                    "state": true,
+                    "id": 58
+                },
+                {
+                    "parameterID": 86,
+                    "inputLow": -136.0578937,
+                    "inputHigh": 87.12012487,
+                    "outputLow": 33,
+                    "outputHigh": 33,
+                    "relInputLow": 0,
+                    "relInputHigh": 1,
+                    "invert": false,
+                    "state": true,
+                    "id": 59
+                }
+            ]
+        },
+        {
+            "name": "Andreas:LeftFoot_Speed",
+            "id": 17,
+            "rowID": "8",
+            "gain": 0.12249999999999998,
+            "pan": -1.2,
+            "state": true,
+            "color": "#D4E09B",
+            "audioObjectID": 222,
+            "mappings": [
+                {
+                    "parameterID": 224,
+                    "inputLow": 0,
+                    "inputHigh": 1,
+                    "outputLow": 32,
+                    "outputHigh": 2723,
+                    "relInputLow": 0,
+                    "relInputHigh": 1,
+                    "invert": false,
+                    "state": true,
+                    "id": 60
+                },
+                {
+                    "parameterID": 226,
+                    "inputLow": 0,
+                    "inputHigh": 1,
+                    "outputLow": 0.1,
+                    "outputHigh": 6.1,
+                    "relInputLow": 0,
+                    "relInputHigh": 1,
+                    "invert": false,
+                    "state": true,
+                    "id": 62
+                },
+                {
+                    "parameterID": 225,
+                    "inputLow": 0,
+                    "inputHigh": 0.59,
+                    "outputLow": -8.5,
+                    "outputHigh": 1,
+                    "relInputLow": 0,
+                    "relInputHigh": 0.59,
+                    "invert": false,
+                    "state": true,
+                    "id": 63
+                }
+            ]
+        },
+        {
+            "name": "Ami:LeftFoot_Speed",
+            "id": 18,
+            "rowID": "14",
+            "gain": 0.0841,
+            "pan": 1.3,
+            "state": true,
+            "color": "#F6F4D2",
+            "audioObjectID": 241,
+            "mappings": [
+                {
+                    "parameterID": 243,
+                    "inputLow": 0,
+                    "inputHigh": 1,
+                    "outputLow": 32,
+                    "outputHigh": 2823,
+                    "relInputLow": 0,
+                    "relInputHigh": 1,
+                    "invert": false,
+                    "state": true,
+                    "id": 61
+                },
+                {
+                    "parameterID": 245,
+                    "inputLow": 0,
+                    "inputHigh": 1,
+                    "outputLow": 0.1,
+                    "outputHigh": 12.1,
+                    "relInputLow": 0,
+                    "relInputHigh": 1,
+                    "invert": false,
+                    "state": true,
+                    "id": 64
+                },
+                {
+                    "parameterID": 244,
+                    "inputLow": 0,
+                    "inputHigh": 0.51,
+                    "outputLow": 3.5,
+                    "outputHigh": 8,
+                    "relInputLow": 0,
+                    "relInputHigh": 0.51,
+                    "invert": false,
+                    "state": true,
+                    "id": 65
+                }
+            ]
+        },
+        {
+            "name": "Olof:Rankle_Yvel",
+            "id": 19,
+            "rowID": "25",
+            "gain": 0.16809999999999997,
+            "pan": 0.1,
+            "state": true,
+            "color": "#F19C79",
+            "audioObjectID": 117,
+            "mappings": [
+                {
+                    "parameterID": 120,
+                    "inputLow": -91,
+                    "inputHigh": -24,
+                    "outputLow": 0,
+                    "outputHigh": 1,
+                    "relInputLow": 0,
+                    "relInputHigh": 0.48153701485764566,
+                    "invert": false,
+                    "state": true,
+                    "id": 66
+                },
+                {
+                    "parameterID": 121,
+                    "inputLow": -90.65820805,
+                    "inputHigh": 47.76979643,
+                    "outputLow": 33,
+                    "outputHigh": 33,
+                    "relInputLow": 0,
+                    "relInputHigh": 1,
+                    "invert": false,
+                    "state": true,
+                    "id": 67
+                }
+            ]
+        },
+        {
+            "name": "Andreas:RightFoot_Speed",
+            "id": 21,
+            "rowID": "11",
+            "gain": 0.09,
+            "pan": 2.4,
+            "state": true,
+            "color": "#B75E38",
+            "audioObjectID": 152,
+            "mappings": [
+                {
+                    "parameterID": 154,
+                    "inputLow": 0,
+                    "inputHigh": 1,
+                    "outputLow": 0,
+                    "outputHigh": 1,
+                    "relInputLow": 0,
+                    "relInputHigh": 1,
+                    "invert": false,
+                    "state": true,
+                    "id": 71
+                },
+                {
+                    "parameterID": 156,
+                    "inputLow": 0,
+                    "inputHigh": 1,
+                    "outputLow": 39.7,
+                    "outputHigh": 100,
+                    "relInputLow": 0,
+                    "relInputHigh": 1,
+                    "invert": false,
+                    "state": true,
+                    "id": 72
+                },
+                {
+                    "parameterID": 155,
+                    "inputLow": 0,
+                    "inputHigh": 1,
+                    "outputLow": 0,
+                    "outputHigh": 1,
+                    "relInputLow": 0,
+                    "relInputHigh": 1,
+                    "invert": false,
+                    "state": true,
+                    "id": 73
+                },
+                {
+                    "parameterID": 159,
+                    "inputLow": 0,
+                    "inputHigh": 1,
+                    "outputLow": 29,
+                    "outputHigh": 71,
+                    "relInputLow": 0,
+                    "relInputHigh": 1,
+                    "invert": false,
+                    "state": true,
+                    "id": 74
+                },
+                {
+                    "parameterID": 161,
+                    "inputLow": 0,
+                    "inputHigh": 1,
+                    "outputLow": 10,
+                    "outputHigh": 200,
+                    "relInputLow": 0,
+                    "relInputHigh": 1,
+                    "invert": false,
+                    "state": true,
+                    "id": 75
+                },
+                {
+                    "parameterID": 157,
+                    "inputLow": 0,
+                    "inputHigh": 1,
+                    "outputLow": -1,
+                    "outputHigh": 1,
+                    "relInputLow": 0,
+                    "relInputHigh": 1,
+                    "invert": false,
+                    "state": true,
+                    "id": 81
+                }
+            ]
+        },
+        {
+            "name": "Ami:RightFoot_Speed",
+            "id": 22,
+            "rowID": "17",
+            "gain": 0.07840000000000001,
+            "pan": -2.1,
+            "state": true,
+            "color": "#7CECDD",
+            "audioObjectID": 187,
+            "mappings": [
+                {
+                    "parameterID": 189,
+                    "inputLow": 0,
+                    "inputHigh": 1,
+                    "outputLow": 0,
+                    "outputHigh": 1,
+                    "relInputLow": 0,
+                    "relInputHigh": 1,
+                    "invert": false,
+                    "state": true,
+                    "id": 76
+                },
+                {
+                    "parameterID": 190,
+                    "inputLow": 0,
+                    "inputHigh": 1,
+                    "outputLow": 0,
+                    "outputHigh": 1,
+                    "relInputLow": 0,
+                    "relInputHigh": 1,
+                    "invert": false,
+                    "state": true,
+                    "id": 77
+                },
+                {
+                    "parameterID": 191,
+                    "inputLow": 0,
+                    "inputHigh": 1,
+                    "outputLow": 33,
+                    "outputHigh": 100,
+                    "relInputLow": 0,
+                    "relInputHigh": 1,
+                    "invert": false,
+                    "state": true,
+                    "id": 78
+                },
+                {
+                    "parameterID": 194,
+                    "inputLow": 0,
+                    "inputHigh": 1,
+                    "outputLow": 10,
+                    "outputHigh": 200,
+                    "relInputLow": 0,
+                    "relInputHigh": 1,
+                    "invert": false,
+                    "state": true,
+                    "id": 79
+                },
+                {
+                    "parameterID": 196,
+                    "inputLow": 0,
+                    "inputHigh": 1,
+                    "outputLow": 10,
+                    "outputHigh": 200,
+                    "relInputLow": 0,
+                    "relInputHigh": 1,
+                    "invert": false,
+                    "state": true,
+                    "id": 80
+                },
+                {
+                    "parameterID": 192,
+                    "inputLow": 0,
+                    "inputHigh": 1,
+                    "outputLow": -1,
+                    "outputHigh": 1,
+                    "relInputLow": 0,
+                    "relInputHigh": 1,
+                    "invert": true,
+                    "state": true,
+                    "id": 82
+                }
+            ]
+        },
+        {
+            "name": "Andreas:BackTop_Y",
+            "id": 23,
+            "rowID": "0",
+            "gain": 0.25,
+            "pan": 0,
+            "state": true,
+            "color": "#819B25",
+            "audioObjectID": 317,
+            "mappings": [
+                {
+                    "parameterID": 319,
+                    "inputLow": 148,
+                    "inputHigh": 151.9,
+                    "outputLow": 82.7,
+                    "outputHigh": 90.2,
+                    "relInputLow": 0.24441217610832414,
+                    "relInputHigh": 0.7837030045205721,
+                    "invert": false,
+                    "state": true,
+                    "id": 88
+                }
+            ]
+        }
+    ]
+}
