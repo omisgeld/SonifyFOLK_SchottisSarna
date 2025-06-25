@@ -1,1 +1,114 @@
-theme: jekyll-theme-cayman
+{
+    "version": 1,
+    "duration": 60,
+    "variableMappings": [
+        {
+            "name": "Olof:Rfoot_Yvel",
+            "id": 2,
+            "rowID": "18",
+            "gain": 0.25,
+            "pan": 0,
+            "state": true,
+            "color": "#F19C79",
+            "audioObjectID": 222,
+            "mappings": [
+                {
+                    "parameterID": 224,
+                    "inputLow": -49,
+                    "inputHigh": 87,
+                    "outputLow": 32,
+                    "outputHigh": 10000,
+                    "relInputLow": 0.39008274317434266,
+                    "relInputHigh": 0.9994617531297674,
+                    "invert": false,
+                    "state": true,
+                    "id": 3
+                }
+            ]
+        },
+        {
+            "name": "Strake:Marker3_Yacc",
+            "id": 8,
+            "rowID": "22",
+            "gain": 0.25,
+            "pan": 0,
+            "state": true,
+            "color": "#7CECDD",
+            "audioObjectID": 298,
+            "mappings": [
+                {
+                    "parameterID": 300,
+                    "inputLow": -3573.893063,
+                    "inputHigh": 2546.049272,
+                    "outputLow": 69,
+                    "outputHigh": 105,
+                    "relInputLow": 0,
+                    "relInputHigh": 1,
+                    "invert": false,
+                    "state": true,
+                    "id": 17
+                }
+            ]
+        },
+        {
+            "name": "Ami:BackTop_Y",
+            "id": 9,
+            "rowID": "3",
+            "gain": 0.019600000000000003,
+            "pan": 2,
+            "state": true,
+            "color": "#D4E09B",
+            "audioObjectID": 349,
+            "mappings": [
+                {
+                    "parameterID": 351,
+                    "inputLow": 135.6,
+                    "inputHigh": 143,
+                    "outputLow": 74,
+                    "outputHigh": 84.8,
+                    "relInputLow": 0,
+                    "relInputHigh": 0.986010730189931,
+                    "invert": false,
+                    "state": true,
+                    "id": 18
+                },
+                {
+                    "parameterID": 352,
+                    "inputLow": 135.6,
+                    "inputHigh": 143,
+                    "outputLow": 0,
+                    "outputHigh": 15,
+                    "relInputLow": 0,
+                    "relInputHigh": 0.986010730189931,
+                    "invert": false,
+                    "state": false,
+                    "id": 19
+                }
+            ]
+        },
+        {
+            "name": "Ami:BackTop_Yvel",
+            "id": 10,
+            "rowID": "4",
+            "gain": 0.25,
+            "pan": 0,
+            "state": true,
+            "color": "#F6F4D2",
+            "audioObjectID": 2,
+            "mappings": [
+                {
+                    "parameterID": 4,
+                    "inputLow": 42,
+                    "inputHigh": 62,
+                    "outputLow": 33,
+                    "outputHigh": 80,
+                    "relInputLow": 0.8082066769722415,
+                    "relInputHigh": 0.9930941753441129,
+                    "invert": false,
+                    "state": true,
+                    "id": 20
+                }
+            ]
+        }
+    ]
+}
