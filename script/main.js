@@ -1061,7 +1061,7 @@ class GUI {
 
           let url = this._dataManager.getSharedLink();
 
-          if (navigator.share) {
+          if (false) { // (navigator.share) {
             navigator.share({
               title: 'WebAudioXML Sonification Toolkit',
               url: url
